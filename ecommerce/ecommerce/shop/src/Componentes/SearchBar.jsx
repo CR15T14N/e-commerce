@@ -4,8 +4,8 @@ const SearchBar = ( {onChangeText} ) => {
     return (
         <>
         <form>
-            <label htmlFor="">Producto</label>
-            <input 
+            <label htmlFor="">Buscar</label>
+            <input
             onChange={onChangeText}
             type="search"
             name="search"
